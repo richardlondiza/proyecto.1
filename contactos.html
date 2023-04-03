@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style4.css">
+    <link
+    rel="shortcut icon"
+    href="/iconos/favicon.ico (2).png"
+    type="image/x-icon"
+  />
+    <title>Proyecto 1.0</title>
+</head>
+<body>
+    <header>
+        <h1>Mi familia</h1>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preferencias.html">Preferencias</a></li>
+            <li><a href="audiovisuales.html">Audiovisuales</a></li>
+            <li><a href="contactos.html" class="active">Contactos</a></li>
+          </ul>
+        </nav>
+      </header>
+      <hr>
+
+      <div class="contenedor-formulario">
+          <form action="">
+
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Escribi tu nombre" required minlength="3">
+
+            <label for="apellido">Apellido:</label>
+            <input type="text" name=apellido" id="apellido" placeholder="Escribi tu apellido" required minlength="3">
+
+            <label for="mail">Mail:</label>
+            <input type="mail" name="mail" id="mail" placeholder="Escribi tu mail">
+
+            <label for="pais">Pais:</label>
+            <select name="pais" id="pais">
+                <option value="argentina">argentina</option>
+                <option value="venezuela">venezuelauruguay</option>
+                <option value="uruguay">uruguay</option>
+                <option value="peru">peru</option>
+                <option value="bolivia">bolivia</option>
+                <option value="chile">chile</option>
+            </select>
+
+            <label for="comentario">Comentario:</label>  
+            <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
+
+            <label for="motivo">Motivo de contacto</label>
+            <input type="radio" name="motivo" id="motivo"><i>soy fan</i>
+            <input type="radio" name="motivo" id="motivo"><i>soy el mejor</i>
+            <input type="radio" name="motivo" id="motivo"><i>soy conejo</i>
+            <input type="radio" name="motivo" id="motivo"><i>soy cantane</i>
+        
+            <input type="submit" value="Enviar">
+
+         
+            
+      </div>
+
+
+  
+    
+      <footer class="footer">
+        <p>Derechos Reservados &COPY; 2023</p>
+      </footer>
+</body>
+</html>
